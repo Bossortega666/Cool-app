@@ -6,7 +6,8 @@ frontend:
         - nvm install 20
         - nvm use 20
         - npm ci
-        - npx amplify pull --yes --appId d15fx4uumg2nzf --envName main
+        - npx ampx pull --yes --appId d15fx4uumg2nzf --envName main
+        
     build:
       commands:
         - npm run build
